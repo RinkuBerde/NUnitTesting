@@ -11,6 +11,7 @@
             Console.WriteLine("3. Derive the monthly payments as per provided data");
             Console.WriteLine("4. Find square root using Newton's method");
             Console.WriteLine("5. Decimal to Binary Conversion");
+            Console.WriteLine("6. Nibble Swapping");
             Console.WriteLine("------------------------------------------------------------------");
             Console.Write("Enter the option : ");
             int option = Convert.ToInt32(Console.ReadLine());
@@ -31,6 +32,9 @@
                     break;
                 case 5:
                     BinaryConversion.ToBinary();
+                    break;
+                case 6:
+                    NibbleSwap.NSwap();
                     break;
                 default:
                     Console.WriteLine("Please Enter from the given choice");
