@@ -9,6 +9,7 @@
             Console.WriteLine("1. Find the day of the week");
             Console.WriteLine("2. Convert the temperature to either Fahrenheit/Celcius");
             Console.WriteLine("3. Derive the monthly payments as per provided data");
+            Console.WriteLine("4. Find square root using Newton's method");
             Console.WriteLine("------------------------------------------------------------------");
             Console.Write("Enter the option : ");
             int option = Convert.ToInt32(Console.ReadLine());
@@ -23,6 +24,9 @@
                     break;
                 case 3:
                     MonthlyPayment.PaymentCalculation();
+                    break;
+                case 4:
+                    SquareRoot.Sqrt();
                     break;
                 default:
                     Console.WriteLine("Please Enter from the given choice");
